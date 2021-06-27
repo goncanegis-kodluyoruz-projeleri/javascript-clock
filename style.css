@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(./img/spacex-TV2gg2kZD1o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  min-height: 50vh;
+  padding: 2rem 4rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.logo {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.clock {
+  text-align: center;
+  color: #e98208;
+  font-size: 2rem;
+}
